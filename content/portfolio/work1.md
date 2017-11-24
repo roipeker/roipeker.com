@@ -6,7 +6,7 @@ title = "5 Little Something'"
 weight = 0
 
 +++
-{{< vimeo id="244091415" class="vimeo-wrapper" >}}
+{{< vimeo id="244091415" class="vimeo-responsive" >}}
 
 This app was develop for [Storyola](http://storyola.org/ "Storyola website") ◂ [FastChicago](http://www.fastchicago.com "Fast Chicago website") in 2013.  
 <!--more-->
