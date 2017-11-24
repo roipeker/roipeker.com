@@ -6,7 +6,7 @@ title = "Healthtech Subscribe"
 weight = 6
 
 +++
-**Healthtech Subscription** app was made for CDW ◂ [StudioNorth](https://www.studionorth.com/ "StudioNorth website") in 2015.
+**Healthtech Subscription** app was made for CDW ◂ [StudioNorth](http://www.studionorth.com/ "StudioNorth website") in 2015.
 
 <!--more-->
 
