@@ -15,4 +15,4 @@ Built with AS3 + AIR.
 
 Here's the screencast demo of the gameplay.
 
-243773827
+{{< vimeo id="243773827" class="vimeoWrapper" >}}
