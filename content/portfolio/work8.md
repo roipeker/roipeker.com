@@ -11,8 +11,8 @@ Simple 3 card memory game made for Philips ◂ [StudioNorth](http://www.studiono
 <!--more-->
 
 It supposed to be used in Windows tablets like the SurfacePro.  
-Built with AS3 + AIR.
+Built with **AS3 + AIR**.
 
-Here's the screencast demo of the gameplay.
+Here's the [https://vimeo.com/243773827](https://vimeo.com/243773827 "Three Card Monty demo on Vimeo") of the gameplay.
 
 {{< vimeo id="243773827" class="vimeoWrapper" >}}
