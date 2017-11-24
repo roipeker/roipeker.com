@@ -1,31 +1,21 @@
 +++
-image = "img/portfolio/label-clothes.jpg"
+date = "2017-11-22T11:27:40-03:00"
+image = "/img/portfolio/app_connectit_thm.jpg"
 showonlyimage = false
-date = "2016-11-05T19:57:40+05:30"
-title = "Name of the work 7"
-draft = false
+title = "ConnectIT"
 weight = 7
-+++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
++++
+iPad + Windows game, kinda 4 in row style.
+
+Project made for CDW ◂ [StudioNorth](http://www.studionorth.com "StudioNorth website") in 2015.  
 <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+The video shows only the iPad version.  
+Here's the [gameplay demo](https://vimeo.com/243485570 "ConnectIT gameplay on Vimeo"). Enjoy!
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+{{< vimeo id="244091415" class="vimeoWrapper" >}}
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+Special mention here for my friend, [Tasos Kotharas](https://twitter.com/tasos_kotaras "Tasos Kotharas Twitter"), he took care of the app's AI and early versions UI. He achieved a very good balance of "smartness" to give the user a chance to win once in a while.
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-## Header Level 2
-
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+An interesting aspect of this project is how the sync functionality works with Dropbox, custom logos can be added in the gameplay without much hassle, making it a beautiful tool to showcase partners during corporate events.
