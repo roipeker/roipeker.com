@@ -1,32 +1,15 @@
 +++
-showonlyimage = true
-draft = false
+date = "2017-11-22T09:55:22-03:00"
 image = "img/portfolio/app_storyola_thumb.jpg"
-date = "2017-11-22T18:25:22+05:30"
-title = "Name of the work 1"
+showonlyimage = true
+title = "5 Little Something'"
 weight = 0
+
 +++
+This app was develop for [Storyola](http://storyola.org/ "Storyola website") ◂ [FastChicago](fastchicago.com "Fast Chicago website") in 2013.  
+It's a storybook, for kids under 5.  
+Built with AS3 + AIR + Genome2D framework, the client only requested an iPad version.
 
-Even the all-powerful Pointing has no control about the bl
-ind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-<!--more-->
+Apparently, it was taken down from the AppStore a while ago. So, I made a [screencast demo](https://vimeo.com/244091415 "5 Little Something' video demo") in Vimeo.
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
-
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-## Header Level 2
-
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+Enjoy!
