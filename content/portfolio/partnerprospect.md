@@ -1,10 +1,10 @@
 +++
 date = "2017-11-24T19:41:01+05:30"
-title = "Partner Prospect"
-draft = false
 image = "https://s3.amazonaws.com/place.it/antonio/landing%20page%20images/5ipadtravel/2.jpg"
 showonlyimage = false
+title = "Partner Prospect"
 weight = 1
+
 +++
 Partners Prospect ◂ CDW - 2016
 
