@@ -1,7 +1,7 @@
 +++
 date = "2017-11-22T09:55:22-03:00"
 image = "img/portfolio/app_storyola_thumb.jpg"
-showonlyimage = true
+showonlyimage = false
 title = "5 Little Something'"
 weight = 0
 
