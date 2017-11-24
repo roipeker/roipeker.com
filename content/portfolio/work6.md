@@ -12,7 +12,7 @@ App made for CDW ◂ [StudioNorth](http://www.studionorth.com/ "StudioNorth webs
 
 This is a companion app, used in conjunction with other CDW apps via url schemas, as a fast and independent way to marketing and subscribe events' attendees to CDW news and mailing lists.
 
-Built using **AS3 + AIR + Starling framework.**
+Built using **AS3 + AIR +** [**Starling framework**](https://gamua.com/starling/ "Starling website")**.**
 
 Although the app looks (and is) pretty simple, I must admit making this screencast took me a while, and I'm starting to enjoy this video production thing!
 
