@@ -6,7 +6,7 @@ title = "5 Little Something'"
 weight = 0
 
 +++
-This app was develop for [Storyola](http://storyola.org/ "Storyola website") ◂ [FastChicago](fastchicago.com "Fast Chicago website") in 2013.  
+This app was develop for [Storyola](http://www.storyola.org/ "Storyola website") ◂ [FastChicago](fastchicago.com "Fast Chicago website") in 2013.  
 It's a storybook, for kids under 5.  
 Built with AS3 + AIR + Genome2D framework, the client only requested an iPad version.
 
