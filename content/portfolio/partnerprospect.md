@@ -1,5 +1,5 @@
 +++
-date = "2017-11-24T19:41:01+05:30"
+date = "2017-11-23T11:11:01-03:00"
 image = "/img/portfolio-bkp/ipad-air-2.jpg"
 showonlyimage = true
 title = "Partner Prospect"
