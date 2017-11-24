@@ -8,7 +8,6 @@ weight = 6
 +++
 **Healthtech Subscription** app was made for CDW ◂ [StudioNorth](https://www.studionorth.com/ "StudioNorth website") in 2015.
 
-  
 <!--more-->
 
 This is a companion app, used in conjunction with other CDW apps via url schemas, as a fast and independent way to marketing and subscribe events' attendees to CDW news and mailing lists.
@@ -20,3 +19,5 @@ Although the app looks (and is) pretty simple, I must admit making this screenca
 Here's the [Window+iPad demo](https://vimeo.com/244156660 "Healthtech Subscribe Vimeo demo") on Vimeo. Enjoy !
 
 {{< vimeo id="[244156660](https://vimeo.com/244156660 "https://vimeo.com/244156660")" class="vimeoWrapper" >}}
+
+More screencast demo coming this week! [Stay tuned](twitter.com/roipekr "roipeker Twitter profile")
