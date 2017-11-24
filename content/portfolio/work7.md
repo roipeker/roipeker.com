@@ -14,7 +14,7 @@ Project made for CDW ◂ [StudioNorth](http://www.studionorth.com "StudioNorth w
 The video shows only the iPad version.  
 Here's the [gameplay demo](https://vimeo.com/243485570 "ConnectIT gameplay on Vimeo"). Enjoy!
 
-{{< vimeo id="244091415" class="vimeoWrapper" >}}
+{{< vimeo id="243485570" class="vimeoWrapper" >}}
 
 Special mention here for my friend, [Tasos Kotharas](https://twitter.com/tasos_kotaras "Tasos Kotharas Twitter"), he took care of the app's AI and early versions UI. He achieved a very good balance of "smartness" to give the user a chance to win once in a while.
 
