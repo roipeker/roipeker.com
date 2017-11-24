@@ -31,8 +31,8 @@ uglyURLs = false
 #            url = "about/"
 
             [[params.navlinks]]
-                        name = "Résumé"
-                        url = "resume/"
+            name = "Résumé"
+            url = "resume/"
 
             [[params.navlinks]]
             name = "Get in touch"
