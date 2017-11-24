@@ -11,7 +11,10 @@ iPad + Windows game, kinda 4 in row style.
 Project made for CDW ◂ [StudioNorth](http://www.studionorth.com "StudioNorth website") in 2015.  
 <!--more-->
 
-The video shows only the iPad version.  
+The video shows only the iPad version.
+
+Built with **AS3 + AIR**
+
 Here's the [gameplay demo](https://vimeo.com/243485570 "ConnectIT gameplay on Vimeo"). Enjoy!
 
 {{< vimeo id="244091415" class="vimeoWrapper" >}}
