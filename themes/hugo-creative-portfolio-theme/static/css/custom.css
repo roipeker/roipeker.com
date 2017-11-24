@@ -1,0 +1,63 @@
+/* your styles go here */
+
+
+/*.h6 {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+}
+h1,
+.h1 {
+
+
+}*/
+.sidebar-heading {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: -0.02em;
+}
+
+/*.sidebar-heading {
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: -0.02em;
+}*/
+
+.sidebar-heading a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.sidebar-heading a:hover {
+    border-bottom: dotted 1px #ef5285;
+    color: #000;
+    text-decoration: none;
+}
+
+.small-navbar-heading {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    margin-top: 10px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.small-navbar-heading a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.small-navbar-heading a:hover {
+    border-bottom: dotted 1px #ef5285;
+    color: #000;
+    text-decoration: none;
+}
+

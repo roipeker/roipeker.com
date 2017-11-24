@@ -1,0 +1,49 @@
+baseURL = "https://roipeker.com/"
+#title = "roipeker™ portfolio"
+title = "roipeker™"
+languageCode = "en-us"
+disqusShortname = "roipeker"
+googleAnalytics = "UA-110150871-1"
+theme = "hugo-creative-portfolio-theme"
+publishDir = "public"
+
+
+[params]
+	author = "roipeker"
+	style = "default"
+#	style = "pink"
+      description = "Personal portfolio of Rodrigo López"
+      copyright = "&copy;2017 <strong>roi</strong>peker™."
+      sidebarAbout = [
+        "I'm a creative digital developer and digital designer with +10 years of experience in the business.",
+        "Originally from Buenos Aires, I'm currently switching between Athens, GR and my homeland."
+      ]
+      email = "hello@roipeker.com"
+
+      # Nav links in the side bar
+            [[params.navlinks]]
+            name = "Home"
+            url = ""
+
+#            [[params.navlinks]]
+#            name = "About"
+#            url = "about/"
+
+            [[params.navlinks]]
+                        name = "Résumé"
+                        url = "resume/"
+
+            [[params.navlinks]]
+            name = "Get in touch"
+            url = "contact/"
+
+[params.social]
+#      googleplus    = "full profile url in googleplus"
+      email         = "hello@riopeker.com"
+      twitter       = "https://twitter.com/roipekr"
+      linkedin      = "https://www.linkedin.com/in/roipeker/"
+#      stackoverflow = "https://stackoverflow.com/users/8960871/roipeker"
+      vimeo 		= "https://vimeo.com/roipeker"
+      skype 		= "roipeker"
+#      instagram     = "full profile url in instagram"
+#      github        = "https://github.com/roipeker/"
