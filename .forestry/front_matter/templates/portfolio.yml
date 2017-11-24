@@ -1,0 +1,38 @@
+---
+hide_body: false
+fields:
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: showonlyimage
+  label: Showonlyimage
+  type: boolean
+  hidden: false
+  default: false
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: weight
+  label: Weight
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
