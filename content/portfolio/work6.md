@@ -18,4 +18,6 @@ Although the app looks (and is) pretty simple, I must admit making this screenca
 
 Here's the [Window+iPad demo](https://vimeo.com/244156660 "Healthtech Subscribe Vimeo demo") on Vimeo. Enjoy !
 
+{{< vimeo id="244156660" class="vimeoWrapper" >}}
+
 More screencast demo coming this week! [Stay tuned](twitter.com/roipekr "roipeker Twitter profile")
