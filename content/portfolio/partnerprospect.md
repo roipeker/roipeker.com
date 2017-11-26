@@ -6,7 +6,7 @@ title = "Partner Prospect"
 weight = 0
 
 +++
-Partners Prospect ◂ CDW - 2016
+Partners Prospect ◂ CDW ◂ - 2016
 
 <!--more-->
 
