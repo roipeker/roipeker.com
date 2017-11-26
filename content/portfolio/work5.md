@@ -1,31 +1,30 @@
 +++
+date = "2017-11-25T11:23:42-03:00"
+draft = true
 image = "img/portfolio/business-card.jpg"
 showonlyimage = true
-draft = true
-date = "2016-11-05T19:53:42+05:30"
-title = "Name of the work 5"
+title = "ExploreIT"
 weight = 5
+
 +++
+This is ExploreIT, codename EIT, app made for CDW ◂ [StudioNorth](http://www.studionorth.com/ "StudioNorth website") in 2013.  <!--more-->
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
-<!--more-->
+This app is an eternal beast. Is my first big project with SN. Overall, it was a real success for the studio, CDW and me. The project grew on a constant peace for over 2 years, with constant updates and improvements. The app is used to sell products from big partners companies and CDW services.
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+It runs on a huge touchscreen windows all-in-one, several Windows tablets, and iPads.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+Built using **AS3 + AIR +** **barcode reader ANE.**
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+### The concept:
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+I'm not sure if I can remember all the bells & whistles about EIT, but it provides a comfortable way to guide and teach the user what are the solutions available for their needs... a CDW representative usually guides the attendees through the app, creating whiteboards with products schematics and notes. The app experience ends with a form, sending an email that collects all the information required for the specified solution.
 
-## Header Level 2
+### Features:
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+The app includes a list of special features like:
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Scanning people's badges during the events for a fast "login", it does this via a bluetooth barcode scanner or through the device's camera (using an ANE to parse the PDF417 code).
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+There's a special feature, that has to be configured on the webadmin, to run a video-wall Screensaver, a special wall full of devices attached with magnets (that works as inductive chargers as well), that after a while of inactivity it runs a screensaver video as a whole, all devices in sync. This was a really challenging feature, as we had to rely on the wifi network speed. But the result was amazing... up to 29 devices playing a portion of a gigantic video in sync.
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+I will do my best to update this post with more information about this amazing app.
