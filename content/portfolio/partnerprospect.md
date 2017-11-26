@@ -16,4 +16,8 @@ Built using **AS3 + AIR +** [**Starling framework**](https://gamua.com/starling/
 
 Based on a linear form that collects customers responses. Includes integration with zappier recipes to track down the quiz responses.
 
-I'll try to make a **screencast** soon.
+Here's the iPad screencast on Vimeo:
+
+{{< vimeo id="244533823" class="vimeoWrapper" >}}
+
+Thanks for watching!
