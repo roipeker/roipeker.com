@@ -1,7 +1,7 @@
 +++
 date = "2017-11-25T11:23:42-03:00"
 draft = true
-image = "img/portfolio/business-card.jpg"
+image = "/img/portfolio/eit_devices.jpg"
 showonlyimage = true
 title = "ExploreIT"
 weight = 5
