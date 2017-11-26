@@ -28,3 +28,5 @@ Scanning people's badges during the events for a fast "login", it does this via 
 There's a special feature, that has to be configured on the webadmin, to run a video-wall Screensaver, a special wall full of devices attached with magnets (that works as inductive chargers as well), that after a while of inactivity it runs a screensaver video as a whole, all devices in sync. This was a really challenging feature, as we had to rely on the wifi network speed. But the result was amazing... up to 29 devices playing a portion of a gigantic video in sync.
 
 I will do my best to update this post with more information about this amazing app.
+
+![EIT running in the CDW bus](https://biztechmagazine.com/sites/default/files/tiny-uploads/cdw-bigbus2_0.jpg "EIT running IN the CDW bus")_This is a pic of CDW's bus, running two TVs with EIT._
