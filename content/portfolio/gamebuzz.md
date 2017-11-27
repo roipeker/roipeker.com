@@ -12,7 +12,7 @@ weight = 9
 
 ![GameBuzz poster](/img/portfolio/app_gamebuzz_thm.jpg "GameBuzz poster")
 
-{{< image src="/img/portfolio/app_gamebuzz_thm.jpg" title="Game Poster" width=400 height=300 />}}
+{{< figure src="/img/portfolio/app_gamebuzz_thm.jpg" title="Game Poster" width=400 height=300 />}}
 
 ### Overview:
 
