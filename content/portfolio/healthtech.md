@@ -22,4 +22,4 @@ Here's the [Window+iPad demo](https://vimeo.com/244156660 "Healthtech Subscribe 
 
 Although the app flow looks (and is) pretty simple, I must admit making this screencast took me a whiiiiile, but I'm starting to enjoy making videos.
 
-So, more screencast demos coming this week! [Stay tuned](twitter.com/roipekr "roipeker Twitter profile")
+So, more screencast demos coming this week! [Stay tuned](http://twitter.com/roipekr "roipeker Twitter profile")
