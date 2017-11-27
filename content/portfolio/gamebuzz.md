@@ -12,9 +12,12 @@ GameBuzz! ◂ StudioNorth - 2016
 
 ![GameBuzz poster](/img/portfolio/app_gamebuzz_thm.jpg "GameBuzz poster")
 
+{{< image src="/img/portfolio/app_gamebuzz_thm.jpg" title="Game Poster" width=400 height=300 />}}
+
+
 ### Overview:
 
-The game system itself is not multiplatform, but both the source code relies on a multiplatform system: 
+The game system itself is not multiplatform, but both the source code relies on a multiplatform system:
 
 * There's a Windows / OSX "host" running in the ELO TV, and the game interface itself.
 * an iPad running as a controller and managed by the host (you can check more on the website).
@@ -33,8 +36,8 @@ The controller (iPad) and host (ELO TV) communicates through P2P multicast proto
 
 ### Demo:
 
-This time, the overview and video of the app(s) it's on SN side.   
-Check the [product's website](https://www.studionorth.com/gamebuzz/ "GameBuzz! site") for more infomation! 
+This time, the overview and video of the app(s) it's on SN side.  
+Check the [product's website](https://www.studionorth.com/gamebuzz/ "GameBuzz! site") for more infomation!
 
 Here's a video reel showing the system live:
 
