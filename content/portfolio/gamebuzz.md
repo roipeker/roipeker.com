@@ -1,31 +1,42 @@
 +++
-draft = true
-image = "img/portfolio/envelope-brand.jpg"
-showonlyimage = false
 date = "2016-11-05T20:02:19+05:30"
-title = "Item with image"
+draft = true
+image = "/img/portfolio/app_gamebuzz_thm.jpg"
+showonlyimage = false
+title = "GameBuzz"
 weight = 9
-+++
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
++++
+GameBuzz! ◂ StudioNorth - 2016
+
 <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+![GameBuzz poster](/img/portfolio/app_gamebuzz_thm.jpg "GameBuzz poster")
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+### Overview:
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+The game system itself is not multiplatform, but both the source code relies on a multiplatform system: 
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+* There's a Windows / OSX "host" running in the ELO TV, and the game interface itself.
+* an iPad running as a controller and managed by the host (you can check more on the website).
+* 6 "buzzers" used by the players.
+* A cloud backend to store all games' data and skins.
 
-## Header Level 2
+I call it a "game system" because, beyond the interconnected devices, it packages (up to) 6 games inside. Which games, rounds, logos, colors,  and media content, is selected by the webadmin.
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+### Tech info:
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Built using **AS3 + AIR +** [**Starling framework**](https://gamua.com/starling/ "Starling")**.**
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+The apps (client + controller) uses the same codebase project, sharing \~74% of the core functionality (mostly network and configuration and some UI stuffs), beyond game specifics.
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+The controller (iPad) and host (ELO TV) communicates through P2P multicast protocol, so there's no special setup required on the devices.
+
+### Demo:
+
+This time, the overview and video of the app(s) it's on SN side.   
+Check the [product's website](https://www.studionorth.com/gamebuzz/ "GameBuzz! site") for more infomation! 
+
+Here's a video reel showing the system live:
+
+{{< youtube RxJhhZ5Lp84 >}}
