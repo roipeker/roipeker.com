@@ -1,5 +1,5 @@
 +++
-date = "2016-11-05T20:02:19+05:30"
+date = "2017-11-26T00:00:00-03:00"
 image = "/img/portfolio/app_gamebuzz_thm.jpg"
 showonlyimage = false
 title = "GameBuzz"
