@@ -39,7 +39,7 @@ uglyURLs = false
             url = "contact/"
 
 [params.social]
-#      googleplus    = "full profile url in googleplus"
+#      googleplus    = "full profile url in goog      leplus"
       email         = "hello@riopeker.com"
       twitter       = "https://twitter.com/roipekr"
       linkedin      = "https://www.linkedin.com/in/roipeker/"
