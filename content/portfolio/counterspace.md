@@ -1,5 +1,5 @@
 +++
-date = "2017-12-15T12:28:14+00:00"
+date = "2017-12-15T11:28:14-03:00"
 draft = true
 image = "/img/portfolio/app_counterspace.jpg"
 showonlyimage = true
