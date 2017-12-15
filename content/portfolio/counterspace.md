@@ -26,4 +26,6 @@ Built using **AS3 + AIR +** [**Starling framework**](https://gamua.com/starling/
 
 Here’s a [screencast](https://vimeo.com/247498727 "CounterSpace screencast Vimeo") on Vimeo. Enjoy !
 
-[Request](mailto:hello@roipeker.com?subject=Request%20CounterSpace%20download%20link&body=enter%20your%20reason "request password for CounterSpace") password to [download APK](https://www.dropbox.com/s/vimy781cczox5cd/counterspace_arm.apk?dl=1 "Download CounterSpace apk").
+{{< vimeo id="247498727" class="vimeoWrapper" >}}
+
+If you want, you can [request](mailto:hello@roipeker.com?subject=Request%20CounterSpace%20download%20link&body=enter%20your%20reason "request password for CounterSpace") the password to [download APK](https://www.dropbox.com/s/vimy781cczox5cd/counterspace_arm.apk?dl=1 "Download CounterSpace apk").
