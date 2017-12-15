@@ -3,8 +3,7 @@ date = "2017-12-09T11:28:14-03:00"
 image = "/img/portfolio/app_counterspace.jpg"
 showonlyimage = false
 title = "Counterspace"
-type = ""
-weight = ""
+weight = 0
 
 +++
 CounterSpace ◂ SanJamar ◂ FastChicago - 2017
