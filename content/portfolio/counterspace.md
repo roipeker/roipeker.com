@@ -1,6 +1,5 @@
 +++
 date = "2017-12-09T11:28:14-03:00"
-draft = true
 image = "/img/portfolio/app_counterspace.jpg"
 showonlyimage = true
 title = "Counterspace"
