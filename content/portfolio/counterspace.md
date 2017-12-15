@@ -1,7 +1,7 @@
 +++
 date = "2017-12-09T11:28:14-03:00"
 image = "/img/portfolio/app_counterspace.jpg"
-showonlyimage = true
+showonlyimage = false
 title = "Counterspace"
 type = ""
 weight = ""
