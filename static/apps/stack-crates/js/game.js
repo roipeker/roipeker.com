@@ -188,7 +188,7 @@ playGame.prototype = {
 			game.time.events.remove(this.timerEvent);
 			this.movingCrate.destroy();
 			this.timeText.destroy();
-			game.time.events.add(Phaser.Timer.SECOND * 2, function(){
+			game.time.events.add( 500, function(){
 				this.crateGroup.forEach(function(i){
 					i.body.static = true ;
 				}, true );
@@ -217,7 +217,6 @@ playGame.prototype = {
 			game.time.events.add(Phaser.Timer.SECOND * 5, function(){
 				game.state.start("PlayGame");
 			}, this );
-
 		}
 	},
 	dropCrate:function(){
