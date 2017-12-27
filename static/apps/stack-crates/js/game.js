@@ -49,13 +49,13 @@ playGame.prototype = {
 
 		game.load.atlasXML("spr", "assets/sprites/sprites.png", "assets/sprites/sprites.xml" );
 
-		game.load.audio("hit01", ["../assets/sounds/hit01.mp3"]);
-		game.load.audio("hit02", ["../assets/sounds/hit02.mp3"]);
-		game.load.audio("hit03", ["../assets/sounds/hit03.mp3"]);
-		game.load.audio("remove", ["../assets/sounds/remove.mp3"]);
-		game.load.audio("gameover", ["../assets/sounds/gameover.mp3"]);
-		game.load.bitmapFont("font", "../assets/fonts/font.png", "../assets/fonts/font.fnt");
-		game.load.bitmapFont("smallfont", "../assets/fonts/smallfont.png", "../assets/fonts/smallfont.fnt");
+		game.load.audio("hit01", ["assets/sounds/hit01.mp3"]);
+		game.load.audio("hit02", ["assets/sounds/hit02.mp3"]);
+		game.load.audio("hit03", ["assets/sounds/hit03.mp3"]);
+		game.load.audio("remove", ["assets/sounds/remove.mp3"]);
+		game.load.audio("gameover", ["assets/sounds/gameover.mp3"]);
+		game.load.bitmapFont("font", "assets/fonts/font.png", "assets/fonts/font.fnt");
+		game.load.bitmapFont("smallfont", "assets/fonts/smallfont.png", "assets/fonts/smallfont.fnt");
 
 		console.log("preloader");
 	},
