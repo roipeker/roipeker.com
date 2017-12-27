@@ -47,7 +47,7 @@ playGame.prototype = {
 		game.load.image("title", "../assets/sprites/title.png");
 		game.load.image("tap", "../assets/sprites/tap.png");*/
 
-		game.load.atlasXML("spr", "../assets/sprites/sprites.png", "../assets/sprites/sprites.xml" );
+		game.load.atlasXML("spr", "assets/sprites/sprites.png", "assets/sprites/sprites.xml" );
 
 		game.load.audio("hit01", ["../assets/sounds/hit01.mp3"]);
 		game.load.audio("hit02", ["../assets/sounds/hit02.mp3"]);
