@@ -184,11 +184,11 @@ playGame.prototype = {
 	tick:function(){
 		this.timer++;
 		this.timeText.text = (gameOpts.timeLimit - this.timer).toString();
-		if( this.timer > gameOpts.timeLimit ){
+		if( this.timer >= gameOpts.timeLimit ){
 			game.time.events.remove(this.timerEvent);
 			this.movingCrate.destroy();
 			this.timeText.destroy();
-			game.time.events.add( 500, function(){
+			game.time.events.add( 100, function(){
 				this.crateGroup.forEach(function(i){
 					i.body.static = true ;
 				}, true );
@@ -214,7 +214,7 @@ playGame.prototype = {
 			var scoreDisplayText = game.add.bitmapText( game.width/2, game.height/5+140, "font", this.score.toString(), 144 );
 			scoreDisplayText.anchor.set(.5);
 			localStorage.setItem(gameOpts.localStorageName, JSON.stringify({score:Math.max(this.score, this.savedData.score)}));
-			game.time.events.add(Phaser.Timer.SECOND * 5, function(){
+			game.time.events.add(Phaser.Timer.SECOND * 3, function(){
 				game.state.start("PlayGame");
 			}, this );
 		}
