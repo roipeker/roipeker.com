@@ -1,0 +1,33 @@
+CACHE MANIFEST
+#version 1.0 12-27-2017
+
+CACHE:
+#images
+assets/fonts/font.fnt
+assets/fonts/font.png
+assets/fonts/smallfont.fnt
+assets/fonts/smallfont.png
+assets/sprites/sprites.png
+assets/sprites/sprites.xml
+
+#sounds
+assets/sounds/gameover.mp3
+assets/sounds/hit01.mp3
+assets/sounds/hit02.mp3
+assets/sounds/hit03.mp3
+assets/sounds/remove.mp3
+
+#style sheets
+
+#style sheet images
+img/wrongorientation.png
+
+#javascript files
+js/phaser.min.js
+js/box2d-plugin-full.js
+js/game.js
+index.html
+
+
+NETWORK:
+*
