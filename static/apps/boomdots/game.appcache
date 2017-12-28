@@ -1,0 +1,22 @@
+CACHE MANIFEST
+#version 1.0 12-27-2017
+
+CACHE:
+#images
+img/clear
+
+#sounds
+
+#style sheets
+
+#style sheet images
+#img/wrongorientation.png
+
+#javascript files
+phaser.min.js
+game.js
+index.html
+
+
+NETWORK:
+*
