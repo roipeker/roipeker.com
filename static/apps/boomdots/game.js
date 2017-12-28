@@ -2,36 +2,17 @@ var game;
 var config = {};
 window.onload = function () {
 	game = new Phaser.Game(320, 480, Phaser.AUTO);
-	game.resolution = window.devicePixelRatio;// nice trick!
+	game.resolution = window.devicePixelRatio;
 	game.state.add("Play", play, true);
 	config = {storageId: "boomdots"};
 };
 
-/*
-WebFontConfig = {
-	//  'active' means all requested fonts have finished loading
-	//  We set a 1 second delay before calling 'createText'.
-	//  For some reason if we don't the browser cannot render the text the first time it's created.
-	active: function () {
-		game.time.events.add(Phaser.Timer.SECOND, createText, this);
-	},
-
-	//  The Google Fonts we want to load (specify as many as you like in the array)
-	google: {
-		families: ['Patua One']
-	}
-};*/
-
-function createText() {
-	// topScore_tf.font = "Patua One";
-}
 
 var topScore_tf;
 var play = function () {
 };
 play.prototype = {
 	preload: function () {
-		// game.load.script('webfont', "//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js");
 		game.load.image('clear_btn', "img/clear.png");
 	},
 	create: function () {
@@ -42,17 +23,7 @@ play.prototype = {
 
 		if (!topScore_tf) {
 			topScore_tf = game.add.text(10, 10, "Score: 0 - Best: 0", {font: "14px Arial"});
-			// topScore_tf.setShadow(1, 1, 'rgba(0,0,0,0.35)', 1);
-			// topScore_tf.stroke = '#ff87ab';
-			// topScore_tf.strokeThickness = 1;
-			// topScore_tf.resolution = .5 ;
-			// var grd = topScore_tf.context.createLinearGradient(0, 0, 0, topScore_tf.canvas.height);
-			// grd.addColorStop(0, '#ff87ab');
-			// grd.addColorStop(1, '#fcc8c2');
-			// topScore_tf.fill = grd;
 			topScore_tf.fill = "#9c9783";
-			// topScore_tf.addColor('#333333', topScore_tf.text.indexOf("0"));
-			// topScore_tf.addColor('#9c9783', topScore_tf.text.indexOf("-"));
 		}
 
 		this.bg = game.add.sprite(0, 0);
@@ -77,44 +48,26 @@ play.prototype = {
 		graph.endFill();
 		this.particle = graph.generateTexture(game.resolution);
 
-		// grd.addColorStop(0, '#ff87ab');
-		// grd.addColorStop(1, '#fcc8c2');
-
 		graph.destroy();
-		// this.enemy.resolution = 3 ;
 		this.enemy.anchor.set(.5);
 		this.player.anchor.set(.5);
 
 		game.physics.startSystem(Phaser.Physics.ARCADE);
-		// game.stage.backgroundColor = 0x337799;
 		this.emitter = game.add.emitter(0, 0, 100);
 		this.emitter.makeParticles(this.particle);
 		this.emitter.setAlpha(1, 0, 1200);
-		// this.emitter.autoAlpha = true ;
-		// this.emitter.setScale(0.3, 1);
 		this.emitter.gravity = 300;
 
-		// this.clear_btn = game.add.button(game.world.centerX - 95, 400, 'clear_btn', this.onClick, this, 2, 1, 0);
 		this.clear_btn = game.add.button(game.width - 30 - 10, 10, 'clear_btn', this.onClick, this, 2, 1, 0);
 		this.clear_btn.priorityID = 1;
 		this.clear_btn.alpha = .7 ;
 		this.clear_btn.tint = 0x9c9783;
-		// this.clear_btn.anchor.set(.5,.5);
 		this.clear_btn.scale.set(0.4, 0.4);
-		// setHitArea( this.clear_btn, 10 );
 		this.clear_btn.onInputDown.add(function (e) {
 			this.clear_btn.alpha = .35;
 		}, this);
 
 		this.reset();
-
-		function setHitArea(obj, offset) {
-			var w = obj.width;
-			var h = obj.width;
-			console.log("Size:", w, h);
-			// obj.hitArea = new Phaser.Rectangle(-offset,-offset,w+offset*2,h+offset*2);
-			obj.hitArea = new Phaser.Rectangle(-w / 2 - offset, -h / 2 - offset, w + offset * 2, h + offset * 2);
-		}
 
 		function makeBall(size, color, px, py) {
 			console.log(this);
@@ -170,7 +123,6 @@ play.prototype = {
 		}, 10000 - this.score * 10, Phaser.Easing.Linear.None, true);
 		this.playerTween.onComplete.add(this.die, this);
 		this.bg.events.onInputDown.add(this.fire, this);
-		// game.input.onDown.add(this.fire, this);
 	},
 	placeEnemy: function () {
 		this.enemy.x = game.width - this.enemyRad / 2;
@@ -189,7 +141,6 @@ play.prototype = {
 	fire: function () {
 		if (!this.canFire) return;
 		this.bg.events.onInputDown.remove(this.fire, this);
-		// game.input.onDown.remove(this.fire, this);
 		this.playerTween.stop();
 		this.playerTween = game.add.tween(this.player).to({
 			y: -this.player.width
@@ -197,11 +148,9 @@ play.prototype = {
 		this.playerTween.onComplete.add(this.die, this);
 	},
 	die: function () {
-		// update local storage.
 		localStorage.setItem(config.storageId, Math.max(this.score, this.topScore));
 		this.updateScore();
 		this.reset();
-		// game.state.start("Play");
 	},
 	updateScore: function () {
 		if (this.score > this.topScore) {
@@ -213,10 +162,5 @@ play.prototype = {
 		topScore_tf.addColor('#333333', idx );
 		topScore_tf.addColor('#9c9783', txt.indexOf("-"));
 		topScore_tf.addColor('#333333', txt.indexOf(String(this.topScore), idx+1));
-
-		// topScore_tf.addColor('#333333', topScore_tf.text.indexOf("0"));
-		// topScore_tf.addColor('#9c9783', topScore_tf.text.indexOf("-"));
-		// topScore_tf.
-
 	}
 };
