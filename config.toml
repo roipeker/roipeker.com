@@ -14,10 +14,9 @@ uglyURLs = false
 	style = "default"
 #	style = "pink"
       description = "Personal portfolio of Rodrigo López"
-      copyright = "&copy;2017 <strong>roi</strong>peker™."
+      copyright = "&copy;2018 <strong>roi</strong>peker™."
       sidebarAbout = [
-        "I'm a creative digital developer and digital designer with +10 years of experience in the business.",
-        "Originally from Buenos Aires, I'm currently switching between Athens, GR and my homeland."
+        "I'm a creative digital developer and digital designer with +10 years of experience in the business."
       ]
       email = "hello@roipeker.com"
 
@@ -40,7 +39,7 @@ uglyURLs = false
 
 [params.social]
 #      googleplus    = "full profile url in goog      leplus"
-      email         = "hello@riopeker.com"
+      email         = "hello@roipeker.com"
       twitter       = "https://twitter.com/roipekr"
       linkedin      = "https://www.linkedin.com/in/roipeker/"
 #      stackoverflow = "https://stackoverflow.com/users/8960871/roipeker"
