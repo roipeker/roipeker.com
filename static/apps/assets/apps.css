@@ -26,20 +26,6 @@ li {
   color: #333333;
 }
 
-.logo {
-  background: url('sn_logo_white_ghost.svg') no-repeat;
-  background-size: 50px 50px;
-  background-color: #fa8004;
-  background-position: center;
-  padding: 2.5rem;
-}
-
-.Gradient-Fill-1 {
-  width: 1200px;
-  height: 1000px;
-  background-image: linear-gradient(to bottom, #eaeaea, #f1f1f1);
-}
-
 .app-icon {
   display: block;
   margin: 50px auto 20px auto;
@@ -159,7 +145,6 @@ li {
 .link:hover {
   color: #000000;
 }
-
 
 .footer {
   font-family: 'Open Sans', sans-serif;

@@ -11,21 +11,21 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://apps.studionorth.net/studionorth/elementarray/builds/elementarray_1.10.ipa</string>
+					<string>https://images.roipeker.tk/file/roiapps/woords/woords_v0.0.03.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.studionorth.PeriodicTable</string>
+				<string>com.cdw.healthtechsubscribe</string>
 				<key>bundle-version</key>
-				<string>1.10</string>
+				<string>0.0.03</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>ElementArray</string>
+				<string>Woords - the game</string>
 				<key>title</key>
-				<string>ElementArray (v1.10)</string>
+				<string>Woords (v0.0.03)</string>
 			</dict>
 		</dict>
 	</array>
