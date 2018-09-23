@@ -24,7 +24,7 @@
         var VERSION_AND = "0.0.03";
         var nocache = "?" + new Date().getTime();
 
-        var ua = navigator.userAgent;
+        var ua = navigator.userAgent.toLowerCase();
 
         var cloudDir = "https://builds.roipeker.tk/file/roiapps/";
         var urlIOS = "itms-services://?action=download-manifest&url=https://roipeker.com/apps/woords/ios.plist" + nocache;
@@ -32,9 +32,9 @@
 
         // iOS version
         if((ua.match(/iphone/i)) || (ua.match(/ipod/i)) || (ua.match(/ipad/i)) ) {
-            document.write('<a href="' + urlIOS + '" class="button-primary">DOWNLOAD APP (v' + VERSION + ')</a>');
+            document.write('<a href="' + urlIOS + '" class="button-primary">DOWNLOAD APP (v' + VERSION_IOS + ')</a>');
         } else if(ua.match(/android/i)) {
-            document.write('<a href="' + urlAND + '" class="button-primary">DOWNLOAD APP (v' + VERSION + ')</a>');
+            document.write('<a href="' + urlAND + '" class="button-primary">DOWNLOAD APP (v' + VERSION_AND + ')</a>');
         } else {
             document.write('<h4 class="callout">Sorry, Woords is not available for your device at this time.</h4>');
         }
