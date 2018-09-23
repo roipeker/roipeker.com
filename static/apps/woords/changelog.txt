@@ -1,0 +1,89 @@
+====================================
+
+ElementArray changelog:
+
+download @
+https://apps.studionorth.net/studionorth/elementarray/
+
+DoneDone:
+https://studionorth.mydonedone.com/issuetracker/projects/69940/
+
+====================================
+
+2018.07.09
+
+    v1.00
+
+    - initial build.
+
+-----
+
+2018.07.10
+
+    v1.01
+
+    - overall performance optimization.
+    - use only 1 game background for testing.
+
+    v1.02
+
+    - new splashscreen for iOS
+    - more performance improvement.
+    - match all backgrounds with PSD.
+    - added a temporal earthquake effect for fun...
+
+-----
+
+2018.07.11
+
+    v1.03
+
+    - sounds added
+    - removed shake animations from button clicks.
+    - logic to avoid adjacent empty slot on round generation (credits to Dmitry).
+
+    v1.04
+    - done-done issues #1 to #7.
+    - added animations to intro logo.
+
+-----
+
+2018.07.12
+
+    v1.05
+    - API calls to metrics and summary. (requires changes on server side)
+
+    v1.06
+    - reduced glow animation in results screen.
+    - added scroll to the metrics list
+
+-----
+
+2018.07.13
+
+    v1.07
+    - added autorotation in landscape mode.
+    - clean up settings screen
+    - access debug mode when pressing 3 times the ID: text
+    - added Internet detection.
+    - parse metrics format.
+    - send all API metrics to server.
+
+-----
+
+2018.07.17
+
+    v1.08
+    - done-done issues #9 to #12.
+
+    v1.09
+    - done-done issues #13 to #15.
+-----
+
+2018.07.18 (or maybe July 19th according to Athens timezone)
+
+    v1.10
+    - UTC date is being recorded properly for metrics now.
+    the app expects a ::date string from the API to display in the summary.
+    Sends timezoneOffset (minutes) in JSON to /metrics and as url parameter when requesting /summary.
+    Giving the chance to display metrics accurately if wanted.
