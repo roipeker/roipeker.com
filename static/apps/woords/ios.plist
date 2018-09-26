@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://images.roipeker.tk/file/roiapps/woords/woords_v0.0.03.ipa</string>
+					<string>https://images.roipeker.tk/file/roiapps/woords/woords_v0.0.04.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -25,7 +25,7 @@
 				<key>subtitle</key>
 				<string>Woords - the game</string>
 				<key>title</key>
-				<string>Woords (v0.0.03)</string>
+				<string>Woords (v0.0.04)</string>
 			</dict>
 		</dict>
 	</array>
