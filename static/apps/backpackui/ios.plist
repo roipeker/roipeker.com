@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://images.roipeker.tk/file/roiapps/backpackui/backpack_v0.0.02.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.studionorth.cdw.ConnectIt</string>
+				<key>bundle-version</key>
+				<string>0.0.02</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Backpack UI - uikit test</string>
+				<key>title</key>
+				<string>BackpackUI (v0.0.02)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>roipeker :: BackpackUI, uikit implementation.</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/apps.css">
+</head>
+<body>
+
+<div>
+    <img src="ico512.png" class="app-icon">
+    <h1 class="callout">Backpack UI</h1>
+</div>
+
+<div class="downloads">
+    <script type="text/javascript">
+
+        var VERSION_IOS = "0.0.2";
+        var VERSION_AND = "0.0.2";
+
+        var nocache = "?" + new Date().getTime();
+
+        var ua = navigator.userAgent.toLowerCase();
+
+        var cloudDir = "https://builds.roipeker.tk/file/roiapps/";
+        var urlIOS = "itms-services://?action=download-manifest&url=https://roipeker.com/apps/backpackui/ios.plist" + nocache;
+        var urlAND = cloudDir + "backpackui/backpack_v" + VERSION_AND + ".apk" + nocache;
+
+        // iOS version
+        if((ua.match(/iphone/i)) || (ua.match(/ipod/i)) || (ua.match(/ipad/i)) ) {
+            urlIOS="";
+            document.write('<a href="' + urlIOS + '" class="button-primary">DOWNLOAD APP (v' + VERSION_IOS + ')</a>');
+        } else if(ua.match(/android/i)) {
+            document.write('<a href="' + urlAND + '" class="button-primary">DOWNLOAD APP (v' + VERSION_AND + ')</a>');
+        } else {
+            document.write('<h4 class="callout">Sorry, BackpackUI is not available for your device at this time.</h4>');
+        }
+    </script>
+</div>
+</div>
+
+<div class="changelog__callout">
+    <a href="changelog.txt" class="link" target="_blank">Checkout Full Log</a>
+    <br><br>
+</div>
+<footer class="footer">© roipeker. All Rights Reserved.</footer>
+</body>
+</html>
