@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <title>boot</title>
+    <title>roipeker - Starling demo</title>
     <meta name="google" value="notranslate"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="dev/typebase.css">
@@ -18,7 +18,7 @@
             height: 100%;
             overflow: auto;
             text-align: center;
-            background-color: #ffffff;
+            background-color: #FFFFFF;
             overscroll-behavior-y: none;
         }
 
@@ -40,25 +40,27 @@
     <script type="text/javascript" src="dev/swfobject.min.js"></script>
     <script type="text/javascript">
         // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection.
-        var swfVersionStr = "30.0.0";
+        var swfVersionStr = "32.0.0";
         // To use express install, set to playerProductInstall.swf, otherwise the empty string.
         var xiSwfUrlStr = "playerProductInstall.swf";
         var flashvars = {};
         var params = {};
         params.quality = "high";
-        params.bgcolor = "#ffffff";
+        params.bgcolor = "#FFFFFF";
         params.allowscriptaccess = "sameDomain";
         params.allowfullscreen = "true";
+        params.allowFullScreenInteractive = "true";
         params.wmode = 'direct';
         var attributes = {};
-        attributes.id = "boot";
-        attributes.name = "boot";
+        attributes.id = "preloader";
+        attributes.name = "preloader";
         attributes.align = "middle";
 
         var nocache = '';//'?nocache=' + new Date().getTime() ;
 
         swfobject.embedSWF(
-            "boot.swf" + nocache, "flashContent",
+            "preloader.swf" + nocache, "flashContent",
+            // "800", "600",
             "100%", "100%",
             swfVersionStr, xiSwfUrlStr,
             flashvars, params, attributes);
@@ -75,39 +77,43 @@
     </p>
     <p>
         To view this page ensure that Adobe Flash Player version
-        30.0.0 or greater is installed.
+        32.0.0 or greater is installed.
     </p>
+    <p>Either way press the banner down to run Flash content.</p>
     <script type="text/javascript">
-        document.write("<a href='http://www.adobe.com/go/getflashplayer'>" +
+        document.write("<a href='https://get.adobe.com/flashplayer/'>" +
             "<img src='dev/get_flash_player.png' width='150' height='150' alt='Get Adobe Flash player' /></a>");
     </script>
+
 </div>
 
 <noscript>
-    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%"
-            id="boot">
-        <param name="movie" value="boot.swf"/>
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="600"
+            id="preloader">
+        <param name="movie" value="preloader.swf"/>
         <param name="quality" value="high"/>
         <param name="wmode" value="direct"/>
-        <param name="bgcolor" value="#ffffff"/>
+        <param name="bgcolor" value="#FFFFFF"/>
         <param name="allowScriptAccess" value="sameDomain"/>
+        <param name="allowFullScreenInteractive" value="true"/>
         <param name="allowFullScreen" value="true"/>
         <!--[if !IE]>-->
-        <object type="application/x-shockwave-flash" data="boot.swf" width="100%" height="100%">
+        <object type="application/x-shockwave-flash" data="preloader.swf" width="800" height="600">
             <param name="quality" value="high"/>
-            <param name="bgcolor" value="#ffffff"/>
+            <param name="bgcolor" value="#FFFFFF"/>
             <param name="wmode" value="direct"/>
             <param name="allowScriptAccess" value="sameDomain"/>
+            <param name="allowFullScreenInteractive" value="true"/>
             <param name="allowFullScreen" value="true"/>
             <!--<![endif]-->
             <!--[if gte IE 6]>-->
             <p>
                 Either scripts and active content are not permitted to run or Adobe Flash Player version
-                30.0.0 or greater is not installed.
+                32.0.0 or greater is not installed.
             </p>
             <!--<![endif]-->
-            <a href="http://www.adobe.com/go/getflashplayer">
-                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+            <a href="https://get.adobe.com/flashplayer/">
+                <img src="dev/get_flash_player.png"
                      alt="Get Adobe Flash Player"/>
             </a>
             <!--[if !IE]>-->

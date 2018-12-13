@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="ui.png">
+	<SubTexture name="bg shadow 24" x="0" y="395" width="352" height="272"/>
+	<SubTexture name="circ fill 196" x="0" y="0" width="392" height="392"/>
+	<SubTexture name="circ fill 34" x="355" y="395" width="68" height="68"/>
+	<SubTexture name="circ fill 6" x="355" y="466" width="12" height="12"/>
+</TextureAtlas>
